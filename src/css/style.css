@@ -1,0 +1,55 @@
+/* Paleta de Cores Customizada */
+:root {
+    --brand-primary: #e06d53;
+    --brand-dark: #2c3e50;
+    --brand-light: #f8f9fa;
+}
+
+/* Alteração do Header e Navbar */
+.bg-custom {
+    background-color: var(--brand-dark) !important;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1450778869186-3997d5a518da?w=1200') no-repeat center center/cover;
+    height: 60vh;
+}
+
+/* Botões Customizados */
+.btn-primary-custom {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    color: #fff;
+}
+
+.btn-primary-custom:hover {
+    background-color: #c85a42;
+    border-color: #c85a42;
+    color: #fff;
+}
+
+.btn-outline-custom {
+    color: var(--brand-primary);
+    border-color: var(--brand-primary);
+}
+
+.btn-outline-custom:hover {
+    background-color: var(--brand-primary);
+    color: #fff;
+}
+
+/* Customização dos Cards */
+.pet-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+}
+
+.pet-card img {
+    height: 220px;
+    object-fit: cover;
+}
